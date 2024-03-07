@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "ab22d259-c526-4960-9e99-c19abc703259",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33222464"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 07 Mar 2024 06:55:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"group\":\"heroku-nel\",\"max_age\":3600,\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?ts=1709794531&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=JDaZvf45iH9RR4CWGrbkwdN0VDvmUqzEwOHPi9%2F%2BoXE%3D\"}]}"
+						},
+						{
+							"key": "Reporting-Endpoints",
+							"value": "heroku-nel=https://nel.heroku.com/reports?ts=1709794531&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=JDaZvf45iH9RR4CWGrbkwdN0VDvmUqzEwOHPi9%2F%2BoXE%3D"
+						},
+						{
+							"key": "Nel",
+							"value": "{\"report_to\":\"heroku-nel\",\"max_age\":3600,\"success_fraction\":0.005,\"failure_fraction\":0.05,\"response_headers\":[\"Via\"]}"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "1000"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "998"
+						},
+						{
+							"key": "X-Ratelimit-Reset",
+							"value": "1709794577"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin, X-HTTP-Method-Override, Accept-Encoding"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "Location"
+						},
+						{
+							"key": "Location",
+							"value": "https://jsonplaceholder.typicode.com/posts/101"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"41-GDNaWfnVU6RZhpLbye0veBaqcHA\""
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "8608ae2d3f152076-IAD"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"title\": \"foo\",\n    \"body\": \"bar\",\n    \"userId\": 1,\n    \"id\": 101\n}"
+				}
+			]
+		}
+	]
+}
